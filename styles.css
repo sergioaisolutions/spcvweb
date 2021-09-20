@@ -1,0 +1,246 @@
+html {
+    font-family: 'Urbanist', sans-serif;
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    margin-top: -12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: sticky; top: 0;
+    justify-content: space-between;
+    background-color: white;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+footer {
+    display: flex;
+    height: 250px;
+    margin-top: 150px;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: space-between;
+    background-color: rgb(242, 242, 242);
+}
+
+h1 {
+    margin-bottom: 35px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.nav-link {
+    color: black;
+    font-size: 22px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 75px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.me-button {
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    transition: 0.5s ease-out;
+    padding: 10px 15px 10px 15px;
+    background-color: white;
+    border-color: black;
+}
+
+.me-button:hover {
+    color: white;
+    border-color: black;
+    background-color: black;
+}
+
+.skill {
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    box-shadow: 10px 10px 5px rgb(0, 0, 0, 0.5);
+    border-width: 3px;
+}
+
+.skill-img {
+    margin-top: 15px;
+    max-width: 40px;
+}
+
+.social-media-info {
+    display: flex;
+    align-items: center;
+}
+
+.social-media-img {
+    max-width: 30px; 
+    margin-right: 20px;
+}
+
+#logo-header {
+    max-width: 100px;
+}
+
+#nav-links {
+    display: flex;
+    color: black;
+    list-style-type: none;
+}
+
+#contact-me-button {
+    border: solid;
+    cursor: pointer;
+    font-size: 22px;
+    text-decoration: none;
+    border-color: black;
+    transition: 0.5s ease-out;
+    padding: 5px 20px 5px 20px;
+    border-radius: 20px;
+}
+
+#contact-me-button:hover {
+    color: white;
+    background-color: black;
+}
+
+#me {
+    display: flex;
+    margin-top: 75px;
+    margin-bottom: 100px;
+    justify-content: space-between;
+}
+
+#about-me {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#quantum-img {
+    max-width: 450px;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+
+#services {
+    margin-top: 100px;
+    text-align: center;
+}
+
+#my-skills {
+    display: flex;
+    margin-top: 75px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: -30px;
+    justify-content: space-around;
+}
+
+#logo-footer {
+    max-width: 75px;
+}
+
+@media only screen and (max-width: 1350px) {
+
+    #me {
+        flex-direction: column-reverse;
+    }
+
+    #about-me {
+        text-align: center;
+    }
+
+    #quantum {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    #quantum-img {
+        max-width: 100px;
+        margin: 5px;
+    }
+
+  }
+
+@media only screen and (max-width: 1175px) {
+
+    header {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-top: 25px;
+        align-items: center;
+        padding-bottom: 25px;
+        flex-direction: column-reverse;
+    }
+
+    footer {
+        padding-top: 50px;
+        padding-bottom: 25px;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+    }
+
+    .skill {
+        width: 400px;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 75px;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .skill-title {
+        font-size: 25px;
+        margin-bottom: -5px;
+        margin-top: 25px;
+    }
+
+    .skill-text {
+        font-size: 22px;
+    }
+
+    #nav-links {
+        display: none;
+    }
+
+    #me {
+        margin-top: 50px;
+    }
+
+    #my-skills {
+        flex-direction: column;
+        align-items: center;
+    }
+
+  }
+
+  @media only screen and (max-width: 650px) {
+
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .me-button {
+        font-size: 20px;
+    }
+
+    #services {
+        font-size: 30px;
+    }
+
+  }
