@@ -3,9 +3,16 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    margin: auto;
+    position: relative;
+    align-items: center;
+    max-width: 1500px;
+}
+
 header {
     display: flex;
-    margin-top: -12px;
+    margin-top: -15px;
     padding-top: 20px;
     padding-bottom: 20px;
     position: sticky; top: 0;
