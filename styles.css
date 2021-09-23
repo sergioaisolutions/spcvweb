@@ -225,7 +225,11 @@ p {
 
   }
 
-  @media only screen and (max-width: 650px) {
+  @media only screen and (max-width: 550px) {
+
+    header {
+        padding-top: 40px;
+    }
 
     h1 {
         font-size: 20px;
@@ -236,11 +240,69 @@ p {
     }
 
     .me-button {
+        font-size: 16px;
+    }
+
+    .skill {
+        width: 300px;
+        height: 200px;
+    }
+
+    .skill-title {
         font-size: 20px;
     }
 
+    .skill-text {
+        font-size: 15px;
+    }
+
+    #quantum {
+        margin-bottom: 30px;
+    }
+
+    #quantum-img {
+        max-width: 75px;
+    }
+
     #services {
+        font-size: 25px;
+    }
+
+  }
+
+  @media only screen and (max-device-width:550px) {
+
+    header {
+        padding-top: 100px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .me-button {
+        font-size: 40px;
+    }
+
+    .skill {
+        width: 600px;
+        height: 400px;
+    }
+
+    .skill-title {
+        font-size: 40px;
+    }
+
+    .skill-text {
         font-size: 30px;
+    }
+
+    #services {
+        font-size: 40px;
     }
 
   }
