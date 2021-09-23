@@ -186,8 +186,6 @@ p {
     footer {
         padding-top: 50px;
         padding-bottom: 25px;
-        flex-direction: column-reverse;
-        justify-content: space-around;
     }
 
     .skill {
@@ -229,6 +227,11 @@ p {
 
     header {
         padding-top: 40px;
+    }
+
+    footer {
+        flex-direction: column-reverse;
+        justify-content: space-around;
     }
 
     h1 {
@@ -301,8 +304,17 @@ p {
         font-size: 30px;
     }
 
+    .social-media-info {
+        font-size: 25px;
+    }
+
     #services {
         font-size: 40px;
+    }
+
+    #logo-footer {
+        margin-top: 20px;
+        margin-bottom: 20px
     }
 
   }
